@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_tv_serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/item_tv_minl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/item_tv_minr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:id="@+id/item_tv_secl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/item_tv_secr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/item_tv_msecl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorRed"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/item_tv_msecr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lap_item"
+            android:textColor="@color/colorRed"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
